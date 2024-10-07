@@ -155,21 +155,32 @@ a {
 	margin-bottom: 51px;
 	width: 97%;
 }
-.yoga-template .banner .banner-content a.banner-btn {
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 20px;
-	line-height: 25px;
-	letter-spacing: 0.6px;
-	font-weight: 700;
-	padding: 21px 32px 19px;
-	background-color: #fe86d4;
-	color:#fff;
-	border-radius: 3px;
-	text-transform: uppercase;
+.yoga-template .banner .banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.yoga-template .banner .banner-content a.banner-btn:hover {
-	text-decoration: none;
-	color: #7b6cd5;
+
+.yoga-template .banner .banner-content {
+    display: flex;
+    flex-direction: column; /* Coloca los botones uno debajo del otro */
+    justify-content: center;
+    align-items: center;
+}
+
+.yoga-template .banner .banner-content a.banner-btn {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.6px;
+    font-weight: 700;
+    padding: 21px 32px 19px;
+    background-color: #7d2181;
+    color: #fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin: 10px 0; /* Añade más espacio vertical entre los botones */
+    display: inline-block; 
 }
 /*Service*/
 .yoga-template .service-section {
