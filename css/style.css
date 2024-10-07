@@ -183,7 +183,7 @@ a {
     display: inline-block; 
 }
 /*Service*/
-.yoga-template .service-section {
+/*.yoga-template .service-section {
 	padding: 62px 15px;
 }
 .yoga-template .service-section .service-detail {
@@ -215,7 +215,76 @@ a {
 .yoga-template .service-section .service-detail-img {
 	max-width: 90px;
  	height: auto;
+}*/
+/* Progresos del Avance de la Campaña Section */
+.yoga-template .progress-section {
+    padding: 62px 15px;
+    background-color: #f9f9f9;
 }
+
+.yoga-template .progress-section .progress-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.yoga-template .progress-section .progress-desc {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #666;
+    margin-bottom: 30px;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.yoga-template .progress-section ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 28px;
+    color: #444;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.yoga-template .progress-section ul li {
+    margin-bottom: 15px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.yoga-template .progress-section ul li::before {
+    content: '✔';
+    color: #fe86d4;
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+    top: 2px;
+}
+
+.yoga-template .progress-section ul li strong {
+    color: #000;
+}
+
+.yoga-template .progress-section .progress-desc-footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #666;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 0 20px;
+}
+
 /*Class Yoga Club*/
 .yoga-template .best-class-club .detail-col-club{
 	padding-bottom: 10px;
